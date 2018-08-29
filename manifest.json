@@ -1,0 +1,19 @@
+{
+	"manifest_version":2,
+	"name": "Meaning",
+	"version": "1.0",
+	"description": "meaning...?",
+	"icons": {
+		"128": "Icon128.png",
+		"48": "Icon48.png",
+		"16": "Icon16.png"
+	},
+	"background": {
+		"scripts": ["eventPage.js"],
+		"persistent": false
+	},
+	"permissions": [
+		"tabs",
+		"contextMenus"
+	]
+}
